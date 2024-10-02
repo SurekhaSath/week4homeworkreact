@@ -48,7 +48,13 @@ export default function WeatherSearch() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
-        <p>Coded by surekha and is <a href="">open sourced in git hub</a></p>
+        <p>
+          Coded by surekha and is{" "}
+          <a href="https://github.com/SurekhaSath/week4homeworkreact">
+            open sourced in git hub
+          </a>
+          and is hosted in <a>netlify</a>
+        </p>
       </div>
     );
   } else {
