@@ -53,7 +53,8 @@ export default function WeatherSearch() {
           <a href="https://github.com/SurekhaSath/week4homeworkreact">
             open sourced in git hub
           </a>
-          and is hosted in <a>netlify</a>
+          and is hosted in{" "}
+          <a href="https://app.netlify.com/teams/surekhasath/sites">netlify</a>
         </p>
       </div>
     );
