@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+import "./App.css";
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState(false);
@@ -48,14 +48,7 @@ export default function WeatherSearch() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
-        <p>
-          Coded by surekha and is{" "}
-          <a href="https://github.com/SurekhaSath/week4homeworkreact">
-            open sourced in git hub
-          </a>
-          and is hosted in{" "}
-          <a href="https://app.netlify.com/teams/surekhasath/sites">netlify</a>
-        </p>
+        
       </div>
     );
   } else {
